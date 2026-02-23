@@ -1,0 +1,15 @@
+from src.costing.model import RunProfile, estimate_total_cost
+from src.optimizer.instance_selector import InstanceOption, choose_instance
+
+
+def test_total_cost_estimation() -> None:
+    profile = RunProfile(samples=100, hours_per_sample=0.8, storage_gb_per_sample=3.5)
+    total = estimate_total_cost(profile, hourly_rate=0.42, storage_rate_per_gb_month=0.023)
+    assert total == 41.65
+
+
+def test_instance_selection_prefers_spot_when_risk_is_acceptable() -> None:
+    spot = InstanceOption(name="c6i.large-spot", hourly_rate=0.05, interruption_risk=0.08)
+    ondemand = InstanceOption(name="c6i.large", hourly_rate=0.12, interruption_risk=0.01)
+    chosen = choose_instance(spot, ondemand, max_risk=0.10)
+    assert chosen.name == "c6i.large-spot"
