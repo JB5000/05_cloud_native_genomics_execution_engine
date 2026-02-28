@@ -29,10 +29,19 @@ Industrial-grade project focused on bioinformatics/data engineering hiring signa
 - Added spot/on-demand selection rule for risk-aware execution.
 - Added unit-test skeleton for core business logic.
 - Added sample alteration by AI assistant.
+- Implemented core module with cost and instance selection logic.
+- Added unit tests for core functions.
+- Expanded architecture documentation.
 
 ## MVP Progress
 - Added deterministic cost model for compute + storage.
 - Added spot/on-demand selection rule for risk-aware execution.
 - Added unit-test skeleton for core business logic.
 - Added sample alteration by AI assistant.
+- Implemented core module with cost and instance selection logic.
+- Added unit tests for core functions.
+- Expanded architecture documentation.
 - Added sample alteration by AI assistant.
+- Implemented core module with cost and instance selection logic.
+- Added unit tests for core functions.
+- Expanded architecture documentation.
