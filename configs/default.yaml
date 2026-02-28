@@ -1,0 +1,7 @@
+# Default configuration for genomics execution engine
+compute:
+  instance_type: t3.medium
+  spot: true
+storage:
+  bucket: genomics-data-bucket
+  region: us-east-1
