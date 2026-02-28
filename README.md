@@ -28,3 +28,11 @@ Industrial-grade project focused on bioinformatics/data engineering hiring signa
 - Added deterministic cost model for compute + storage.
 - Added spot/on-demand selection rule for risk-aware execution.
 - Added unit-test skeleton for core business logic.
+- Added sample alteration by AI assistant.
+
+## MVP Progress
+- Added deterministic cost model for compute + storage.
+- Added spot/on-demand selection rule for risk-aware execution.
+- Added unit-test skeleton for core business logic.
+- Added sample alteration by AI assistant.
+- Added sample alteration by AI assistant.
