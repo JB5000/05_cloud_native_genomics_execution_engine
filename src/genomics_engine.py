@@ -17,3 +17,13 @@ def select_instance(risk_tolerance: str) -> str:
     if risk_tolerance == "low":
         return "on-demand"
     return "spot"
+
+
+def estimate_run_cost(instance_type: str, total_hours: float, runs: int = 1) -> float:
+    """Estimate total run cost across repeated executions."""
+    if runs < 1:
+        raise ValueError("runs must be >= 1")
+    if total_hours < 0:
+        raise ValueError("total_hours must be >= 0")
+    single_run_cost = calculate_cost(instance_type, total_hours)
+    return round(single_run_cost * runs, 4)
