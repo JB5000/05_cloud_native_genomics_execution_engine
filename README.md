@@ -45,3 +45,29 @@ Industrial-grade project focused on bioinformatics/data engineering hiring signa
 - Implemented core module with cost and instance selection logic.
 - Added unit tests for core functions.
 - Expanded architecture documentation.
+
+## March 2026 Update
+
+- Verified compatibility with Nextflow 24.x
+- Added notes on spot-instance retry logic
+
+## March 2026 Update
+
+- Verified compatibility with Nextflow 24.x
+- Added notes on spot-instance retry logic
+
+<!-- 84a21a7d -->
+
+## March 2026 Update
+
+- Verified compatibility with Nextflow 24.x
+- Added notes on spot-instance retry logic
+
+<!-- 48b2f4c2 -->
+
+## March 2026 Update
+
+- Verified compatibility with Nextflow 24.x
+- Added notes on spot-instance retry logic
+
+<!-- 3f39de2c -->
