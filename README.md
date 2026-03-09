@@ -71,3 +71,10 @@ Industrial-grade project focused on bioinformatics/data engineering hiring signa
 - Added notes on spot-instance retry logic
 
 <!-- 3f39de2c -->
+
+## March 2026 Update
+
+- Verified compatibility with Nextflow 24.x
+- Added notes on spot-instance retry logic
+
+<!-- 20e7005f -->
